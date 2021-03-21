@@ -1,0 +1,42 @@
+.buttons{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button{
+  width: 250px;
+  height: 80px;
+  margin: 30px 20px 0 20px;
+  border: 3px solid;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(0,0,0,0.05);
+  outline: none;
+  transition: background-color,color 0.6s ease-out;
+  font-size: 24px;
+}
+
+.button.-pause{
+  border-color: #e74c3c;
+}
+.button.-reset{
+  border-color: #f1c40f;
+}
+.button.-start{
+  border-color: #2ecc71;
+}
+
+.button.-pause:hover{
+  background-color: #e74c3c;
+}
+.button.-reset:hover{
+  background-color: #f1c40f;
+
+}
+.button.-start:hover{
+  background-color: #2ecc71;
+}
+.button:hover{
+  color: #fff;
+}

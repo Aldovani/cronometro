@@ -1,0 +1,17 @@
+.span {
+  color: #2e384d;
+  background: #ffffff;
+  width: 250px;
+  height: 250px;
+  font-size: 250px;
+  text-align: center;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  margin-right: 10px;
+  line-height: 250px
+}
+
+.separacao {
+  font-size: 200px;
+  text-align: center;
+}
