@@ -1,0 +1,53 @@
+
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+body {
+	margin:0;
+	padding: 0;
+	display: flex;
+	height: 100vh;
+ ;
+}
+
+#App{
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  background: #aec7fa;
+  flex-direction: column;
+}
+
+.span {
+  color: #2e384d;
+  background: #ffffff;
+  width: 150px;
+  height: 150px;
+  font-size: 150px;
+  text-align: center;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  margin-right: 10px;
+  line-height: 150px;
+  
+}
+.separacao {
+  font-size: 125px;
+
+  text-align: center;
+  transform: translateY(-10px);
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.contador {
+  display: flex;
+}
+
